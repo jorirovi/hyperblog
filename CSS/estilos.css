@@ -5,7 +5,22 @@ body
     font-family: Arial;
     font-size: 16px;
     margin: 0;
-    padding: 0;
+    padding: 0.5em;
+}
+#cabecera
+{
+    background: #33A;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.8em;
+}
+#cabecera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
 }
 #container
 {
@@ -24,9 +39,4 @@ body
 {
     padding: 1em;
 }
-#cabecera
-{
-    color: greenyellow;
-    font-size: 25px;
-    text-align: center;
-}
+
